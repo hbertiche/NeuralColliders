@@ -29,7 +29,7 @@ The functionality to save and load checkpoints is written within the model.
 It contains the data pipeline implementation.<br>
 You can provide the Data object (defined in 'data.py') with an OBJ file or a NPY file. This is done in 'train.py', lines 82-83.<br>
 If OBJ, it will sample points and compute distances on the fly.<br>
-If NPY, it expects a pre-computed Nx4 matrix with 'xyz' and distance 'd' as (x,y,z,d) for each point.<br>
+If NPY, it expects a pre-computed Nx4 matrix with 'xyz' and signed distance 'd' as (x,y,z,d) for each point.<br>
 The script 'data.py' can be used to pre-compute the points. Check lines 91-108.<br>
 Pre-computing the points heavily speeds up the training.
 
@@ -43,5 +43,5 @@ Layers implementation found in 'Layers.py'.
 
 <h4>Objects</h4>
 Put your OBJ files in this folder. It will also expect NPY files in this folder. 'data.py' automatically places NPY in this folder.<br>
-Currently it is empty due to submission size limit.
+Currently it is empty due to size.
 
