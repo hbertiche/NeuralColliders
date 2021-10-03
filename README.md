@@ -1,3 +1,5 @@
+![alt text](qualitative.png?raw=true)
+
 <h3>SIMULATION</h3>
 To run a cloth simulation use:<br>
 python run.py [GPU_ID] [NAME]<br>
