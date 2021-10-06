@@ -1,5 +1,8 @@
 ![alt text](qualitative.png?raw=true)
 
+This repository contains the necessary code to run the methodology described in:<br>
+https://arxiv.org/abs/2110.01614
+
 <h3>SIMULATION</h3>
 To run a cloth simulation use:<br>
 python run.py [GPU_ID] [NAME]<br>
