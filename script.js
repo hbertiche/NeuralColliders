@@ -53,4 +53,4 @@ function make_site(paper){
 }
 
 // Read JSON
-fetch("./paper.json").then(response => response.json).then(json => make_site(json));
+fetch("./paper.json").then(response => response.json()).then(json => make_site(json));
