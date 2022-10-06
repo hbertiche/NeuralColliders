@@ -68,3 +68,19 @@ Layers implementation found in ```Layers.py```.
 Put your OBJ files in this folder. It will also expect NPY files in this folder. ```data.py``` automatically places NPY in this folder.<br>
 Currently it is empty due to size.
 
+## Citation
+```
+@article{DBLP:journals/corr/abs-2110-01614,
+  author = {Hugo Bertiche and Meysam Madadi and Sergio Escalera},
+  title = {Neural Implicit Surfaces for Efficient and Accurate Collisions in Physically Based Simulations},
+  journal = {CoRR},
+  volume = {abs/2110.01614},
+  year = {2021},
+  url = {https://arxiv.org/abs/2110.01614},
+  eprinttype = {arXiv},
+  eprint = {2110.01614},
+  timestamp = {Fri, 08 Oct 2021 15:47:55 +0200},
+  biburl = {https://dblp.org/rec/journals/corr/abs-2110-01614.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+```
