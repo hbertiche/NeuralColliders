@@ -1,0 +1,30 @@
+{
+    "title": "Neural Implicit Surfaces for Efficient and Accurate Collisions in Physically Based Simulations",
+    "conference": "",
+    "authors": [
+        {
+            "name": "Hugo Bertiche",
+            "email": "mailto:hugo_bertiche@hotmail.com",
+            "affiliations": [1, 2]
+        },
+        {
+            "name": "Meysam Madadi",
+            "email": "mailto:mmadadi@cvc.uab.cat",
+            "affiliations": [1, 2]
+        },
+        {
+            "name": "Sergio Escalera",
+            "email": "https://sergioescalera.com/",
+            "affiliations": [1, 2]
+        }
+    ],
+    "affiliations": ["Universitat de Barcelona", "Computer Vision Center"],
+    "URLs": {
+        "paper": null,
+        "arxiv": "https://arxiv.org/abs/2110.01614",
+        "youtube": "https://youtu.be/F1kQrYXWtEI",
+        "github": "https://github.com/hbertiche/NeuralColliders",
+        "data": null
+    },
+    "abstract": "Current trends in the computer graphics community propose leveraging the massive parallel computational power of GPUs to accelerate physically based simulations. Collision detection and solving is a fundamental part of this process. It is also the most significant bottleneck on physically based simulations and it easily becomes intractable as the number of vertices in the scene increases. <i>Brute force</i> approaches carry a quadratic growth in both computational time and memory footprint. While their parallelization is trivial in GPUs, their complexity discourages from using such approaches. Acceleration structures &mdash;such as BVH&mdash; are often applied to increase performance, achieving logarithmic computational times for individual point queries. Nonetheless, their memory footprint also grows rapidly and their parallelization in a GPU is problematic due to their branching nature. We propose using implicit surface representations learnt through deep learning for collision handling in physically based simulations. Our proposed architecture has a complexity of O(n) &mdash;or O(1) for a single point query&mdash; and has no parallelization issues. We will show how this permits accurate and efficient collision handling in physically based simulations, more specifically, for cloth. In our experiments, we query up to 1M points in ~300 milliseconds."
+}
